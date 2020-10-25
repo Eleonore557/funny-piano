@@ -1,14 +1,16 @@
 <template>
   <div id="app">
-    <h1>Bon courage !</h1>
+  <v-form></v-form>
   </div>
 </template>
 
 <script>
-
+import VForm from './components/Form'
 export default {
   name: 'App',
   components: {
+    VForm
   }
 }
 </script>
+
